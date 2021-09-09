@@ -1,0 +1,62 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 8px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 14px 14px;
+
+  margin-bottom: 14px;
+  width: auto;
+
+  &:hover {
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+  }
+}
+
+.card a:first-child {
+  flex-grow: 1;
+}
+
+.card .details {
+  width: 100%;
+
+  border-radius: 8px;
+  border: 1px solid rgb(218, 218, 218);
+  background-color: rgb(240, 240, 240);
+  padding: 14px 14px;
+
+  margin-top: 14px;
+}
+
+i {
+  padding-right: 8px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: rgb(49, 70, 255);
+  box-shadow: 0 3px 6px rgba(49, 70, 255, 0.5);
+  color: white;
+  padding: 8px 14px;
+  margin-bottom: 14px;
+  &:hover {
+    background-color: rgb(82, 99, 255);
+    box-shadow: 3px 6px 8px rgba(49, 70, 255, 0.5);
+  }
+}
+.card div {
+  display: inline-block;
+  // margin-top: 14px;
+}
